@@ -1,0 +1,103 @@
+
+.parallaxa {
+	background-image: url(Parallaxdog1.jpg);
+	background-attachment: fixed;
+	height: 1000px; 
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 100%;
+	}
+	
+body {
+	background-color:#FBEAEB;
+	width: 100%;
+	height: 100%;
+	 overflow-x:hidden;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  padding: 26px;
+  margin:0px;
+  background-color: #2F3C7E;
+  position: absolute;
+  top: 0;
+  z-index: 99999;
+  width:1650px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+li {
+	display:block;
+	width:530px;
+	float:left;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	
+
+}
+li:hover {
+  background-color: #2F3C7E;
+	color: white;
+  
+}
+a:visited {
+color:white; 
+}
+.doggo1 {
+   position: absolute;
+  bottom: -600;
+  right: 270;
+  width: 270px;
+
+
+   
+
+}
+
+.doggo2 {
+position: absolute;
+  bottom: -600;
+  right: 1350;
+  width: 270px;
+
+	
+}
+
+.doggo3 {
+	 position: absolute;
+  bottom: -1100;
+  right: 270;
+  width: 270px;
+	
+}
+
+.doggo4 {
+	position: absolute;
+    bottom: -1100;
+  right: 1350;
+  width: 270px;
+	
+	
+}
+
+.doggo5 {
+	 position: absolute;
+  bottom: -1600;
+  right: 270;
+  width: 270px;
+padding-bottom:20px;
+}
+
+.doggo6 {
+	position: absolute;
+  bottom: -1600;
+  right: 1350;
+  width: 270px;
+  padding-bottom:20px;
+}
+	
