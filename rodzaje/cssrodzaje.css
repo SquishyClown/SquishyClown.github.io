@@ -1,0 +1,27 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 250px;
+	height:100%;
+}
+img {
+    width: 100%;
+    height: 450%;
+    object-fit: cover;
+}
+body {
+margin: 0;
+	background: #FBEAEB;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+overflow-x:hidden; }
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
